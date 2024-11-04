@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { FaPlay, FaTiktok, FaSpotify } from 'react-icons/fa';
+import { FaPlay, FaTiktok, FaSoundcloud } from 'react-icons/fa';
 
 const Music = () => {
   const tracks = [
@@ -71,7 +71,7 @@ const Music = () => {
         <div className="flex justify-center space-x-6 mt-12">
           <motion.a
             whileHover={{ scale: 1.1 }}
-            href="https://tiktok.com"
+            href="https://www.tiktok.com/@odielofficial?_t=8r79lgZsDkj&_r=1"
             target="_blank"
             className="flex items-center space-x-2 text-white hover:text-[#00f2ea]"
           >
@@ -80,12 +80,12 @@ const Music = () => {
           </motion.a>
           <motion.a
             whileHover={{ scale: 1.1 }}
-            href="https://spotify.com"
+            href="https://soundcloud.com/djodiel"
             target="_blank"
-            className="flex items-center space-x-2 text-white hover:text-green-500"
+            className="flex items-center space-x-2 text-white hover:text-orange-500"
           >
-            <FaSpotify className="text-2xl" />
-            <span>Spotify</span>
+            <FaSoundcloud className="text-2xl" />
+            <span>SoundCloud</span>
           </motion.a>
         </div>
       </div>

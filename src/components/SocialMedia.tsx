@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { FaInstagram, FaTiktok, FaSpotify, FaYoutube } from 'react-icons/fa';
+import { FaInstagram, FaTiktok, FaYoutube, FaSoundcloud } from 'react-icons/fa';
 
 const SocialMedia = () => {
     return (
@@ -22,11 +22,11 @@ const SocialMedia = () => {
         </motion.a>
         <motion.a
           whileHover={{ scale: 1.1 }}
-          href="https://spotify.com"
+          href="https://soundcloud.com/djodiel"
           target="_blank"
-          className="text-2xl text-white hover:text-green-500"
+          className="text-2xl text-white hover:text-orange-500"
         >
-          <FaSpotify />
+          <FaSoundcloud />
         </motion.a>
         <motion.a
           whileHover={{ scale: 1.1 }}
