@@ -6,7 +6,7 @@ const SocialMedia = () => {
         <div className="flex justify-center space-x-6 mb-4">
         <motion.a
           whileHover={{ scale: 1.1 }}
-          href="https://instagram.com"
+          href="https://www.instagram.com/odielofficial/profilecard/?igsh=MTA1em5kaDlkcXFvaQ=="
           target="_blank"
           className="text-2xl text-white hover:text-pink-500"
         >
@@ -14,7 +14,7 @@ const SocialMedia = () => {
         </motion.a>
         <motion.a
           whileHover={{ scale: 1.1 }}
-          href="https://tiktok.com"
+          href="https://www.tiktok.com/@odielofficial?_t=8r79lgZsDkj&_r=1"
           target="_blank"
           className="text-2xl text-white hover:text-[#00f2ea]"
         >
@@ -30,7 +30,7 @@ const SocialMedia = () => {
         </motion.a>
         <motion.a
           whileHover={{ scale: 1.1 }}
-          href="https://youtube.com"
+          href="https://youtube.com/@djodiel-12?si=0wYUzATJm5uJS0oZ"
           target="_blank"
           className="text-2xl text-white hover:text-red-500"
         >

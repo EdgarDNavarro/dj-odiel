@@ -13,7 +13,8 @@ const images = Array.from({ length: 18 }, (_, i) => {
 });
 export function Gallery() {
     return (
-        <section id="gallery" className="py-20 bg-black">
+        <section id="gallery" className="py-20 bg-gradient-to-b from-gray-900 to-black">
+        {/* <section id="gallery" className="py-20 bg-black"> */}
             <motion.div
                 initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}
