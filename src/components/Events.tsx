@@ -44,11 +44,11 @@ const Events = () => {
             >
               <div className="flex items-center space-x-6 mb-4 md:mb-0">
                 <div className="text-center md:text-left">
-                  <h3 className="text-2xl font-bold gradient-text">{event.date}</h3>
+                  <h3 className="text-2xl font-bold gradient-text font-kode">{event.date}</h3>
                 </div>
                 <div>
-                  <h4 className="text-xl font-semibold hover:text-lime-400 transition-colors">
-                    <a target="_blank" href={event.map} className='hover:cursor-pointer hover:text-lime-400 transition-colors'>
+                  <h4 className="text-xl font-semibold hover:text-blue-400 transition-colors">
+                    <a target="_blank" href={event.map} className='hover:cursor-pointer hover:text-blue-400 transition-colors'>
                     {event.venue}
                     </a>
                   </h4>
