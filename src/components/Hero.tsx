@@ -18,9 +18,9 @@ const Hero = () => {
         transition={{ duration: 1 }}
         className="max-w-4xl mx-auto px-4"
       >
-        <h1 className="text-6xl md:text-8xl mb-6 gradient-text uppercase font-kode">
+        <div className="title">
           DJ odiel
-        </h1>
+        </div>
         <p className="text-xl md:text-2xl text-gray-300 mb-8">
           Dj Odiel - Productor Musical, DJ y Empresario
         </p>

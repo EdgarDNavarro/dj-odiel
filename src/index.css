@@ -5,12 +5,53 @@
 :root {
   --primary: #1a1a1a;
   --accent: #ff3366;
+  --s: 4px; /* set this as a CSS var to modify in MQ later */
+	--o: .5*var(--s);
 }
 
 body {
   margin: 0;
   background-color: var(--primary);
   color: white;
+}
+
+.title {
+  text-wrap: nowrap;
+  margin-bottom: 50px;
+  font: clamp(5em, Min(15vh, 6vw), 6em)/ .75 
+  bebas neue, sans-serif;
+	/* store in CSS var part of stop list used by two gradients */
+	--sl: calc(50% - 0.5px), #0000 calc(50% + 0.5px);
+	/* place div in middle of `body` grid cell 
+	 * (covering entire `content-box` of `body`) */
+	place-self: center;
+	/* place text content in the middle of the one grid cell 
+	 * covering entire `content-box` of `div` itself */
+	place-content: center;
+	/* values depend on font 🚨 but make it such that 
+	 * there's equal spacing around text in all directions
+	 * and make it a multiple of stripes `background-size` height */
+	padding: Round(up, 0.1em, var(--s)) 0.05em 0 0;
+	/* give it a `height` for the `content-box` that's 
+	 * a multiple of stripes `background-size` height 
+	 * plus half this stripes `background-size` height 
+	 * this ensures symmetry */
+	height: calc(Round(up, 1lh, var(--s)) - var(--o));
+	/* background broken in Firefox due to bug 🪲 1481498 
+	 * https://bugzilla.mozilla.org/show_bug.cgi?id=1481498 */
+	background: 
+		/* white text fill */ linear-gradient(22.5deg, #fff var(--sl)) text,
+		/* black _cover_ for stripes in bottom left half */
+			linear-gradient(22.5deg, #000 var(--sl)),
+		linear-gradient(#094770 50%, #0000 0) 0 0/ 1% var(--s) /* stripes background */;
+	/* transparent text to see gradient background fill under */
+	color: #0000;
+	/* white stroke, same thickness as background lines */
+	-webkit-text-stroke: #fff calc(var(--o));
+	text-transform: uppercase;
+	/* so we don't see the black area of `background`, 
+	 * but the `body` image underneath */
+	mix-blend-mode: screen;
 }
 
 
