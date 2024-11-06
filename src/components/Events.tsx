@@ -28,7 +28,7 @@ const Events = () => {
           viewport={{ once: true }}
           className="text-center mb-12"
         >
-          <h2 className="text-4xl font-bold mb-6 gradient-text font-kode">Próximos eventos</h2>
+          <h2 className="text-4xl font-bold mb-6 gradient-text font-orbitron">Próximos eventos</h2>
           <p className="text-gray-300">¡Ven a verme en directo en estos próximos eventos!</p>
         </motion.div>
 
@@ -44,7 +44,7 @@ const Events = () => {
             >
               <div className="flex items-center space-x-6 mb-4 md:mb-0">
                 <div className="text-center md:text-left">
-                  <h3 className="text-2xl font-bold gradient-text font-kode">{event.date}</h3>
+                  <h3 className="text-2xl font-bold gradient-text font-orbitron">{event.date}</h3>
                 </div>
                 <div>
                   <h4 className="text-xl font-semibold hover:text-blue-400 transition-colors">

@@ -70,7 +70,7 @@ export default {
   		},
 		fontFamily: {
 			kode: ['"Kode Mono"', 'monospace'],
-			marker: ['"Permanent Marker"', 'cursive']
+			orbitron: ['"Orbitron"', 'sans-serif']
 		}
   	}
   },

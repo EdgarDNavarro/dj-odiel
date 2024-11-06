@@ -22,7 +22,7 @@ export function Gallery() {
                 viewport={{ once: true }}
                 className="text-center mb-12"
             >
-                <h2 className="text-4xl font-bold mb-6 gradient-text text-center font-kode">Galeria</h2>
+                <h2 className="text-4xl font-bold mb-6 gradient-text text-center font-orbitron">Galeria</h2>
                 <p className="text-gray-300">Un poco mas de quien soy.</p>
             </motion.div>
             <div className="columns-2 gap-4 sm:columns-3 max-w-6xl mx-auto px-4">

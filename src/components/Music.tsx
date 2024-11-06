@@ -30,7 +30,7 @@ const Music = () => {
           viewport={{ once: true }}
           className="text-center mb-12"
         >
-          <h2 className="text-4xl font-bold mb-6 gradient-text font-kode">Últimas pistas</h2>
+          <h2 className="text-4xl font-bold mb-6 gradient-text font-orbitron">Últimas pistas</h2>
           <p className="text-gray-300">Escucha mis últimos lanzamientos y mezclas.</p>
         </motion.div>
 
