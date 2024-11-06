@@ -24,7 +24,7 @@ const About = () => {
           </div>
 
           <div>
-            <h2 className="text-4xl font-bold mb-6 gradient-text">Sobre mi</h2>
+            <h2 className="text-4xl font-bold mb-6 gradient-text font-kode">Sobre mi</h2>
             <p className="text-gray-300 mb-6 text-pretty">
               Con una formación sólida en producción musical, Daniel Lozano (Dj odiel) comenzó su trayectoria en 2016 en Colombia, donde perfeccionó sus habilidades como productor y DJ. Dominando instrumentos como el clarinete, saxofón y piano, también posee conocimientos de teoría musical.
             </p>

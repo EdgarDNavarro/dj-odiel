@@ -28,7 +28,7 @@ const Events = () => {
           viewport={{ once: true }}
           className="text-center mb-12"
         >
-          <h2 className="text-4xl font-bold mb-6 gradient-text">Próximos eventos</h2>
+          <h2 className="text-4xl font-bold mb-6 gradient-text font-kode">Próximos eventos</h2>
           <p className="text-gray-300">¡Ven a verme en directo en estos próximos eventos!</p>
         </motion.div>
 

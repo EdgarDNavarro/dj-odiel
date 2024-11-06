@@ -69,7 +69,8 @@ export default {
   			}
   		},
 		fontFamily: {
-			kode: ['"Kode Mono"', 'monospace']
+			kode: ['"Kode Mono"', 'monospace'],
+			marker: ['"Permanent Marker"', 'cursive']
 		}
   	}
   },
