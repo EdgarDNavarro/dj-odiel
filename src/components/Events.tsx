@@ -47,8 +47,8 @@ const Events = () => {
                   <h3 className="text-2xl font-bold gradient-text">{event.date}</h3>
                 </div>
                 <div>
-                  <h4 className="text-xl font-semibold hover:text-rose-500 transition-colors">
-                    <a target="_blank" href={event.map} className='hover:cursor-pointer hover:text-rose-500 transition-colors'>
+                  <h4 className="text-xl font-semibold hover:text-lime-400 transition-colors">
+                    <a target="_blank" href={event.map} className='hover:cursor-pointer hover:text-lime-400 transition-colors'>
                     {event.venue}
                     </a>
                   </h4>
@@ -59,7 +59,7 @@ const Events = () => {
               <motion.button
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
-                className="bg-gradient-to-r from-pink-600 to-red-600 text-white px-6 py-2 rounded-full hover:from-pink-700 hover:to-red-700 transition duration-300"
+                className="bg-gradient-to-r from-lime-600 to-green-600 text-white px-6 py-2 rounded-full hover:from-lime-700 hover:to-green-700 transition duration-300"
               >
                 <a className='w-full h-full' href='tel:+351912553887'>Comprar Tickets </a>
               </motion.button>

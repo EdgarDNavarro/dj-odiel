@@ -9,13 +9,14 @@
 
 body {
   margin: 0;
-  font-family: 'Inter', sans-serif;
   background-color: var(--primary);
   color: white;
 }
 
+
+
 .gradient-text {
-  background: linear-gradient(45deg, #ff3366, #ff6b6b);
+  background: linear-gradient(45deg, #1E90FF, #49a3fc  );
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;

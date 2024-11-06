@@ -1,4 +1,5 @@
 /** @type {import('tailwindcss').Config} */
+const defaultTheme = require('tailwindcss/defaultTheme');
 export default {
     darkMode: ["class"],
     content: [
@@ -66,7 +67,10 @@ export default {
   					'offset-distance': '100%'
   				}
   			}
-  		}
+  		},
+		fontFamily: {
+			kode: ['"Kode Mono"', 'monospace']
+		}
   	}
   },
   plugins: [require("tailwindcss-animate")],

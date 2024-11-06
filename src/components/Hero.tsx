@@ -18,7 +18,7 @@ const Hero = () => {
         transition={{ duration: 1 }}
         className="max-w-4xl mx-auto px-4"
       >
-        <h1 className="text-6xl md:text-8xl font-bold mb-6 gradient-text uppercase">
+        <h1 className="text-6xl md:text-8xl mb-6 gradient-text uppercase font-kode">
           DJ odiel
         </h1>
         <p className="text-xl md:text-2xl text-gray-300 mb-8">
@@ -32,7 +32,7 @@ const Hero = () => {
         <motion.button
           whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 0.95 }}
-          className=" bg-gradient-to-r from-pink-600 to-red-600 text-white px-8 py-3 rounded-full text-lg font-semibold hover:from-pink-700 hover:to-red-700 transition duration-300"
+          className=" bg-gradient-to-r from-lime-600 to-green-600 text-white px-8 py-3 rounded-full text-lg font-semibold hover:from-lime-700 hover:to-green-700 transition duration-300"
         >
           <a href='tel:+351912553887'>Reservar ahora </a>
         </motion.button>
