@@ -4,7 +4,7 @@ import Particles from './ui/particles';
 
 const Hero = () => {
   return (
-    <section id="home" className="bg-cover bg-bottom bg-hero h-screen flex items-center justify-center text-center ">
+    <section id="home" className="bg-cover bg-bottom bg-hero bg-fixed bg-no-repeat h-screen flex items-center justify-center text-center ">
       <Particles
         className="absolute inset-0"
         quantity={100}
