@@ -14,7 +14,7 @@ const Events = () => {
       date: "NOV 15",
       venue: "Club Inifinity",
       location: "Leiria, PT",
-      time: "22:00 - 04:00",
+      time: "20:00 - 02:00",
       map: "https://maps.app.goo.gl/9hA5JxnXdzjD9Lp16",
       finished: false
     },

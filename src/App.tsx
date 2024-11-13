@@ -6,6 +6,7 @@ import Events from './components/Events';
 import Navbar from './components/Navbar';
 import { Gallery } from './components/Gallery';
 import SocialMedia from './components/SocialMedia';
+import OurTeam from './components/OurTeam';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Music />
       <Events />
       {/* <Contact /> */}
+      <OurTeam/>
       <Gallery />
       
       <footer className="bg-black py-8 text-center">

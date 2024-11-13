@@ -14,7 +14,7 @@ const Navbar = () => {
           
           <div className="hidden md:block">
             <div className="ml-10 flex items-baseline space-x-4">
-              {['Home', 'About', 'Music', 'Events', 'Contact', 'Gallery'].map((item) => (
+              {['Home', 'About', 'Music', 'Events', "Team", 'Gallery'].map((item) => (
                 <motion.a
                   key={item}
                   whileHover={{ scale: 1.1 }}
@@ -58,7 +58,7 @@ const Navbar = () => {
 
       <div className={`${isOpen ? 'block' : 'hidden'} md:hidden`}>
         <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
-          {['Home', 'About', 'Music', 'Events', 'Contact', 'Gallery'].map((item) => (
+          {['Home', 'About', 'Music', 'Events', "Team", 'Gallery'].map((item) => (
             <a
               key={item}
               href={`#${item.toLowerCase()}`}
