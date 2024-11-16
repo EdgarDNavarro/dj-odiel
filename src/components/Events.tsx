@@ -16,6 +16,14 @@ const Events = () => {
       location: "Leiria, PT",
       time: "20:00 - 02:00",
       map: "https://maps.app.goo.gl/9hA5JxnXdzjD9Lp16",
+      finished: true
+    },
+    {
+      date: "NOV 16",
+      venue: "Rugby Lounge Club",
+      location: "Coimbra, PT",
+      time: "00:00 - 06:00",
+      map: "https://maps.app.goo.gl/TE1thqcZha74ogDk6",
       finished: false
     },
     {

@@ -51,7 +51,7 @@ export default {
   			}
   		},
   		backgroundImage: {
-  			hero: "url('/dj/hero1.jpg')"
+  			hero: "url('/dj/hero2.jpg')"
   		},
   		borderRadius: {
   			lg: 'var(--radius)',
