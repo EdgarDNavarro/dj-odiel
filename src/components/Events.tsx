@@ -24,7 +24,7 @@ const Events = () => {
       location: "Coimbra, PT",
       time: "00:00 - 06:00",
       map: "https://maps.app.goo.gl/TE1thqcZha74ogDk6",
-      finished: false
+      finished: true
     },
     {
       date: "DIC 06",
