@@ -23,9 +23,7 @@ const OurTeam = () => {
             icon: FaPhotoVideo,
             bio: "Creador y editor de videos especializado en videos musicales y edición de presentaciones en vivo.",
             social: {
-                instagram: "https://instagram.com/mikeedits",
-                linkedin: "https://linkedin.com/in/mikeedits",
-                twitter: "https://twitter.com/mikeedits",
+                instagram: "https://www.instagram.com/zaldua_juann"
             },
         },
         {
@@ -34,9 +32,7 @@ const OurTeam = () => {
             icon: TiCameraOutline,
             bio: "Especialista en capturar los mejores momentos, resalta por su creatividad y atención al detalle.",
             social: {
-                instagram: "https://instagram.com/alexrivera",
-                linkedin: "https://linkedin.com/in/alexrivera",
-                twitter: "https://twitter.com/alexrivera",
+                instagram: "https://www.instagram.com/merto_cordova",
             },
         },
         {
@@ -45,7 +41,6 @@ const OurTeam = () => {
             icon: PiDevices,
             bio: "Desarrollador full-stack apasionado por crear experiencias digitales inmersivas.",
             social: {
-                instagram: "https://www.instagram.com/daniel_np2107",
                 linkedin: "https://www.linkedin.com/in/edgardnavarro/",
                 github: "https://github.com/EdgarDNavarro",
                 gmail: "edgardaniel2107np@gmail.com",
@@ -121,17 +116,17 @@ const OurTeam = () => {
                                         </motion.a>
                                     )}
 
-                                    {member.social.twitter && (
+                                    {/* {member.social?.twitter && (
                                         <motion.a
                                             whileHover={{ scale: 1.1 }}
-                                            href={member.social.twitter}
+                                            href={member.social?.twitter}
                                             target="_blank"
                                             rel="noopener noreferrer"
                                             className="text-gray-400 hover:text-blue-400 transition-colors"
                                         >
                                             <FaTwitter size={20} />
                                         </motion.a>
-                                    )}
+                                    )} */}
 
                                     {member.social.github && (
                                         <motion.a
