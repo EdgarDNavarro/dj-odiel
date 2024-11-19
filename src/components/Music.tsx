@@ -6,7 +6,7 @@ const Music = () => {
     {
       title: "Summer Nights",
       duration: "3:45",
-      image: "/dj/track1.jpg"
+      image: "/dj/track5.jpg"
     },
     {
       title: "Electric Dreams",

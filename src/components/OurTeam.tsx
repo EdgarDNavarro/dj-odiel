@@ -12,7 +12,7 @@ const OurTeam = () => {
             name: "Zyanya Ramirez",
             role: "Manager",
             icon: GrUserManager,
-            bio: "With 10+ years in the music industry, Sarah has managed top-tier artists worldwide.",
+            bio: "Con más de 2 años en la industria de la música, ha gestionado artistas de primer nivel.",
             social: {
                 instagram: "https://www.instagram.com/zyanyaramirezm"
             },
