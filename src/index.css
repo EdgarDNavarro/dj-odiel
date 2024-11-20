@@ -63,6 +63,13 @@ body {
   color: transparent;
 }
 
+.gradient-vibes {
+  background: linear-gradient(45deg, #ceff1e, #11f3cd, #11b3f3  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
 .hero-gradient {
   background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
               url('/hero-bg.jpg') center/cover no-repeat;

@@ -1,4 +1,5 @@
 import { motion } from 'framer-motion';
+import BlurFade from './ui/blur-fade';
 
 const Events = () => {
   const events = [
@@ -67,7 +68,7 @@ const Events = () => {
                 <div>
                   <h4 className={`text-xl font-semibold ${event.finished ? "line-through" : "hover:text-blue-400"} transition-colors`}>
                     <a target="_blank" href={event.map} className='hover:cursor-pointer hover:text-blue-400 transition-colors'>
-                    {event.venue}
+                      {event.venue}
                     </a>
                   </h4>
                   <p className="text-gray-400">{event.location}</p>
@@ -84,6 +85,33 @@ const Events = () => {
             </motion.div>
           ))}
         </div>
+
+        <div className='grid grid-cols-2 gap-12 items-center max-w-6xl mx-auto mt-16'>
+
+          <BlurFade className="overflow-hidden mb-4" delay={0.20 * 0.05} inView>
+            <img
+              className="size-full rounded-lg object-contain hover:scale-125 transition-transform"
+              src='/dj/flayer.jpg'
+              alt={`Random stock image`}
+            />
+          </BlurFade>
+
+          <div >
+            <h4 className="text-3xl font-bold mb-6 gradient-vibes font-orbitron">Latin Vibes</h4>
+            <p className="text-gray-300 my-4">Llega a Coimbra con toda la intensidad y el sabor de una auténtica noche latina. Este <b className='gradient-vibes'>6 de diciembre</b>, el <b className='gradient-vibes'>Rugby Lounge Club</b> se transformará en el epicentro de los ritmos más calientes del momento. La cita comienza a las 23:00 y se extenderá hasta las 6 de la mañana, asegurando horas de pura fiesta y buena música en un ambiente inolvidable.</p>
+            <p className="text-gray-300">El encargado de encender la pista de baile será el reconocido <b className='gradient-vibes'>DJ Odiel</b>, quien traerá su inconfundible estilo para mantener la energía al máximo durante toda la noche. Con una mezcla de clásicos y éxitos actuales, cada canción será un motivo para perderte en la música y dejarte llevar por el ritmo. <b className='gradient-vibes'>Latin Vibes</b> te promete una noche llena de emoción y buenos momentos que no querrás perderte.</p>
+            
+            <motion.button
+                whileHover={{ scale: 1.05 }}
+                whileTap={{ scale: 0.95 }}
+                className={`mt-8 bg-gradient-to-r px-6 py-2 rounded-full transition duration-300 from-lime-600 to-green-600 text-white hover:from-lime-700 hover:to-green-700`}
+              >
+                <a className={`w-full h-full `} href='tel:+351912553887'>Comprar Tickets </a>
+            </motion.button>
+          </div>
+
+        </div>
+
       </div>
     </section>
   );

@@ -26,7 +26,7 @@ export function Gallery() {
                 <p className="text-gray-300">Un poco mas de quien soy.</p>
             </motion.div>
             <div className="columns-2 gap-4 sm:columns-3 max-w-6xl mx-auto px-4">
-
+                
                 {images.map((image, idx) => (
                     <BlurFade className="overflow-hidden mb-4" key={image.url} delay={0.25 + idx * 0.05} inView>
                         <img
