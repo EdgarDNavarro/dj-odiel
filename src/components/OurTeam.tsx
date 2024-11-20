@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { FaInstagram, FaLinkedin, FaTwitter, FaGithub } from "react-icons/fa";
+import { FaInstagram, FaLinkedin, FaGithub } from "react-icons/fa";
 import { SiGmail } from "react-icons/si";
 import { TiCameraOutline } from "react-icons/ti";
 import { GrUserManager } from "react-icons/gr";
