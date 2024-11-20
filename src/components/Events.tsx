@@ -86,7 +86,7 @@ const Events = () => {
           ))}
         </div>
 
-        <div className='grid grid-cols-2 gap-12 items-center max-w-6xl mx-auto mt-16'>
+        <div className='grid md:grid-cols-2 gap-12 items-center max-w-6xl mx-auto mt-16'>
 
           <BlurFade className="overflow-hidden mb-4" delay={0.20 * 0.05} inView>
             <img
