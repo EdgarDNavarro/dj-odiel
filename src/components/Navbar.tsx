@@ -1,11 +1,30 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import { motion } from 'framer-motion';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
+  const [isScrolled, setIsScrolled] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      setIsScrolled(window.scrollY > 0);
+    };
+
+    // Agregar el evento de scroll
+    window.addEventListener('scroll', handleScroll);
+
+    // Limpiar el evento al desmontar el componente
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
 
   return (
-    <nav className="fixed w-full z-50 bg-black/90 backdrop-blur-sm">
+    <nav 
+      className={`fixed w-full z-50 transition-colors duration-300 ${
+        isScrolled || isOpen ? 'bg-black/70 backdrop-blur-sm' : 'bg-transparent'
+      }`}
+    >
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-24">

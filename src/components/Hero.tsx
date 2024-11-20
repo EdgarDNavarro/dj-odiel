@@ -16,7 +16,7 @@ const Hero = () => {
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 1 }}
-        className="max-w-4xl mx-auto px-4"
+        className="max-w-4xl mx-auto px-4 md:mt-20"
       >
         {/* <div className="title">
           DJ odiel
