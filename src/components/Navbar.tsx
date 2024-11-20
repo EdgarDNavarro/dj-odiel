@@ -6,10 +6,13 @@ const Navbar = () => {
 
   return (
     <nav className="fixed w-full z-50 bg-black/90 backdrop-blur-sm">
+
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex items-center justify-between h-16">
+        <div className="flex items-center justify-between h-24">
+          
           <div className="flex-shrink-0">
-            <h1 className="text-2xl uppercase font-bold font-orbitron">DJ ODIEL</h1>
+            {/* <h1 className="text-2xl uppercase font-bold font-orbitron">DJ ODIEL</h1> */}
+            <img className='h-16' src='/dj/LOGO.png'/>
           </div>
           
           <div className="hidden md:block">
