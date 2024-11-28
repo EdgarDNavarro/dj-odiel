@@ -15,9 +15,9 @@ const About = () => {
           <div className="aspect-square rounded-lg overflow-hidden relative">
 
             <img
-              src="/dj/about.jpg"
+              src="/dj/DSC05742.jpeg"
               alt="DJ Profile"
-              className="w-full h-full object-cover hover:scale-125 transition-transform"
+              className="w-full h-full object-contain hover:scale-125 transition-transform"
             />
             <BorderBeam className="rounded-lg" borderWidth={3} size={250} duration={12} delay={9} />
             

@@ -7,6 +7,7 @@ import Navbar from './components/Navbar';
 import { Gallery } from './components/Gallery';
 import SocialMedia from './components/SocialMedia';
 import OurTeam from './components/OurTeam';
+import Videos from './components/Videos';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <Events />
       {/* <Contact /> */}
       <OurTeam/>
+      <Videos/>
       <Gallery />
       
       <footer className="bg-black py-8 text-center">

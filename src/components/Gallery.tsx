@@ -1,7 +1,7 @@
 import BlurFade from "./ui/blur-fade";
 import { motion } from 'framer-motion';
 
-const images = Array.from({ length: 17 }, (_, i) => {
+const images = Array.from({ length: 18 }, (_, i) => {
     const isLandscape = i % 2 === 0;
     const width = isLandscape ? 800 : 600;
     const height = isLandscape ? 600 : 800;

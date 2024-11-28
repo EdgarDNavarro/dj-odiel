@@ -28,7 +28,7 @@ const Events = () => {
       finished: true
     },
     {
-      date: "DIC 06",
+      date: "DIC 13",
       venue: "Rugby Lounge Club",
       location: "Coimbra, PT",
       time: "01:00 - 04:00",
