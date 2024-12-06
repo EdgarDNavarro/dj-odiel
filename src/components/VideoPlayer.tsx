@@ -25,7 +25,15 @@ const VideoPlayer: React.FC<VideoPlayerProps> = ({ url, index, thumbnail }) => {
         playing={false}
         light={thumbnail || false}
         playsinline={true}
+        config={{
+          file: {
+            attributes: {
+              playsInline: true, 
+            },
+          },
+        }}
       />
+
     </motion.div>
   );
 };

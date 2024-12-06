@@ -98,7 +98,7 @@ const Events = () => {
 
           <div >
             <h4 className="text-3xl font-bold mb-6 gradient-vibes font-orbitron">Latin Vibes</h4>
-            <p className="text-gray-300 my-4">Llega a Coimbra con toda la intensidad y el sabor de una auténtica noche latina. Este <b className='gradient-vibes'>6 de diciembre</b>, el <b className='gradient-vibes'>Rugby Lounge Club</b> se transformará en el epicentro de los ritmos más calientes del momento. La cita comienza a las 23:00 y se extenderá hasta las 6 de la mañana, asegurando horas de pura fiesta y buena música en un ambiente inolvidable.</p>
+            <p className="text-gray-300 my-4">Llega a Coimbra con toda la intensidad y el sabor de una auténtica noche latina. Este <b className='gradient-vibes'>13 de diciembre</b>, el <b className='gradient-vibes'>Rugby Lounge Club</b> se transformará en el epicentro de los ritmos más calientes del momento. La cita comienza a las 23:00 y se extenderá hasta las 6 de la mañana, asegurando horas de pura fiesta y buena música en un ambiente inolvidable.</p>
             <p className="text-gray-300">El encargado de encender la pista de baile será el reconocido <b className='gradient-vibes'>DJ Odiel</b>, quien traerá su inconfundible estilo para mantener la energía al máximo durante toda la noche. Con una mezcla de clásicos y éxitos actuales, cada canción será un motivo para perderte en la música y dejarte llevar por el ritmo. <b className='gradient-vibes'>Latin Vibes</b> te promete una noche llena de emoción y buenos momentos que no querrás perderte.</p>
             
             <motion.button
